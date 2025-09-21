@@ -1,0 +1,132 @@
+body {
+    background-color: #f7fafc;
+    color: #2d3748;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    background-color: #F1A536;
+}
+.header-container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-list a {
+    text-decoration: none;
+    color: #1f2937;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+.nav-list {
+    display: flex;
+    gap: 24px;
+    color: black;
+    font-weight: 500;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-link {
+    color: #374151;
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: #ef4444;
+}
+
+main {
+    max-width: 56rem;
+    margin: 32px auto 0 auto;
+    padding: 24px;
+    background: #fff;
+    border-radius: 8px;
+}
+/* Grid for recipe info */
+.recipe-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+/* Main Content Styles */
+.header {
+text-align: center;
+margin-bottom: 24px;
+}
+
+.header-title {
+font-size: 30px;
+font-weight: bold;
+}
+
+.header-rating {
+color: #f59e42;
+font-size: 18px;
+margin-top: 8px;
+}
+
+.header-image {
+width: 100%;
+height: auto;
+border-radius: 6px;
+margin-top: 16px;
+}
+
+.header-subtitle {
+margin-top: 8px;
+font-size: 14px;
+color: #6b7280;
+font-style: italic;
+}
+/* Recipe Info Styles */
+.recipe-info-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.recipe-info-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.recipe-info-yield-text {
+    font-size: 16px;
+}
+
+/* Optional Video Embed   REMINDER ADD A VIDEO */
+.video-section {
+    margin-top: 32px;
+}
+
+.video-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.video-aspect {
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%;
+}
+
+.video-iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 6px;
+    border: none;
+}
